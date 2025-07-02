@@ -1,34 +1,3 @@
-# Blog Engine - Java Project
-
-A simple Java console-based Blog Engine that supports basic user management and blog publishing features using a MySQL backend.
-
----
-
-## ✨ Features
-
-- User Registration and Login
-- Admin Login (for managing system)
-- Blog Posting
-- View all posts
-- Store and retrieve user/post data from MySQL
-
----
-
-## 🛠️ Technologies Used
-
-- Java (Standard Edition)
-- JDBC (Java Database Connectivity)
-- MySQL
-- HashMap, ArrayList, Scanner
-
----
-
-## 🗃️ Database Schema
-
-Before running the app, make sure the following database and tables exist:
-
-### Database
-
 
 Blog Engine - Java Project
 ==========================
@@ -102,19 +71,3 @@ Notes
 Author
 ------
 Developed by Kavya Patel
-You can change these values in the code:
-
-java
-Copy
-Edit
-String Adminid = "Kavya";
-String Admipass = "password";
-📌 Notes
-Ensure MySQL server is running before executing the program.
-
-This is a command-line-based interface, so interaction is through terminal/console.
-
-You may extend this project with a GUI, servlet/JSP frontend, or REST APIs for a full-stack blog system.
-
-📄 License
-This project is free to use and modify.
